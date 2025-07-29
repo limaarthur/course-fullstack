@@ -5,6 +5,8 @@
 }
 
 :root {
+  /* colors */
+
   --red: #e3646e;
   --purple: #bb92e9;
   --blue: #3996db;
@@ -16,9 +18,27 @@
   --gray-400: #292c34;
   --gray-500: #16181d;
   --gray-600: #0d0e11;
+
+  /* typography */
+
+  --font-asap: "Asap", sans-serif;
+  --font-inconsolata: "Inconsolata", monospace;
+  --font-maven-pro: "Maven Pro", sans-serif;
+
+  /* sizes */
+
+  --title-lg: 700 3.5rem/120% var(--font-asap);
+  --title-md: 700 1.5rem/120% var(--font-asap);
+  --title-sm: 700 0.7rem/120% var(--font-asap);
+
+  --subtitle: 400 0.7rem/120% var(--font-inconsolata);
+
+  --text-md: 400 1rem/140% var(--font-maven-pro);
+  --text-sm: 400 0.8rem/140% var(--font-maven-pro);
 }
 
 body {
+  font: var(--subtitle);
   color: var(--gray-200);
   background-color: var(--gray-500);
 }
