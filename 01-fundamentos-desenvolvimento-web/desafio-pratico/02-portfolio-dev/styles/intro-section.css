@@ -1,0 +1,16 @@
+#intro {
+  background-image: url(/assets/images/background/background-intro.png);
+  background-size: cover;
+
+  height: 100vh;   
+}
+
+.info {
+  padding: 57px 163px;
+  border: 1px solid red;
+}
+
+img {
+  width: 90px;
+  border-radius: 50%;
+}
