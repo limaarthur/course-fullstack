@@ -1,0 +1,63 @@
+.padding-y-base {
+  padding-block: var(--padding-y-base);
+}
+
+.padding-y-large {
+  padding-block: var(--padding-y-large);
+}
+
+.padding-y-xlarge {
+  padding-block: var(--padding-y-xlarge);
+}
+
+.padding-x-large {
+  padding-inline: var(--padding-x-large);
+}
+
+.container {
+  /* dispositivos mobile */
+  /* Define a largura máxima do container (375px) para layouts mobile */
+  --max-width: 375px;
+  /* Define a largura do elemento como o menor valor entre a largura máxima (--max-width) e 100% menos o dobro do espaçamento horizontal (--padding-x-large) */
+  width: min(var(--max-width), 100% - var(--padding-x-large) * 2);
+  margin-inline: auto;
+  border: 1px solid violet;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.even-columns {
+  display: grid;
+  gap: 1rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+}
+
+@media (width >=80em) {
+
+  /* dispositivos desktop */
+  .container {
+    --max-width: 80rem;
+  }
+
+  .desktop-only {
+    display: initial;
+  }
+
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+  }
+}

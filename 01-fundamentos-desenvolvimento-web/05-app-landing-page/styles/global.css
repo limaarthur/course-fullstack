@@ -27,6 +27,13 @@
   --font-size-x-large: 1.5rem;
   --font-size-xx-large: 2.5rem;
 
+  /* padding mobile */
+  --padding-y-base: 1rem;
+  --padding-y-large: 1.5rem;
+  --padding-y-xlarge: 3rem;
+
+  --padding-x-large: 1.5rem;
+
   /* colors */
   --bg-color: #09090B;
   --surface-color: #18181B;
@@ -86,5 +93,12 @@ ul[role="list"] {
     --font-size-large: 2rem;
     --font-size-x-large: 3rem;
     --font-size-xx-large: 4rem;
+
+    /* padding desktop */
+    --padding-y-base: 1.5rem;
+    --padding-y-large: 2.5rem;
+    --padding-y-xlarge: 5rem;
+
+    --padding-x-large: 2rem;
   }
 }
