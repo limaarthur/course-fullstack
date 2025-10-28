@@ -21,7 +21,7 @@
   /* Define a largura do elemento como o menor valor entre a largura máxima (--max-width) e 100% menos o dobro do espaçamento horizontal (--padding-x-large) */
   width: min(var(--max-width), 100% - var(--padding-x-large) * 2);
   margin-inline: auto;
-  border: 1px solid violet;
+  /*border: 1px solid violet;*/
 }
 
 .desktop-only {
@@ -37,8 +37,16 @@
   display: flex;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .gap-1 {
   gap: 1rem;
+}
+
+.gap-1\.5 {
+  gap: 1.5rem;
 }
 
 .grid {
