@@ -11,7 +11,7 @@
 
   border-radius: .5rem;
 
-  font-weight: var(--font-weight-medium) var(--font-size-base)/1.5rem var(--font-family);
+  font: var(--font-weight-medium) var(--font-size-base)/1.5rem var(--font-family);
 
   cursor: pointer;
 
@@ -41,6 +41,16 @@
   }
 }
 
+.btn-sm {
+  padding: .5rem 1rem;
+  font-size: var(--font-size-small);
+}
+
+.btn-md {
+  padding: .75rem 1.25rem;
+  font-size: var(--font-size-base);
+}
+
 .btn:hover {
   --btn-bg-color: linear-gradient(90deg,
       var(--brand-color-secondary) 0%,
@@ -51,8 +61,6 @@
   background-clip: initial;
   color: var(--btn-color);
 }
-
-
 
 @media (width >=80em) {
   .btn-sm {
