@@ -53,10 +53,15 @@ html {
   color: var(--text-color-primary);
 
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
   background-color: var(--bg-color);
+
+  overflow-x: hidden;
+  /* remove o scroll horizontal */
 }
 
 h1,

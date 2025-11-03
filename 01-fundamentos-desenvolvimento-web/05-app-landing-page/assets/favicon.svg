@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="32" height="32">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#F7B733"></stop>
+      <stop offset="100%" stop-color="#FC4A1A"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo circular -->
+  <circle cx="256" cy="256" r="256" fill="url(#grad)"></circle>
+
+  <!-- Letra Z centralizada matematicamente -->
+  <g transform="translate(169.50290697674419,19.585271317829466) scale(13.323643410852712)">
+    <path d="M0.864 22.52L6.504 12.992H1.08V9.488H11.88V12.992L6.36 22.496H12.12V26H0.864V22.52Z" fill="#F4F4F5"></path>
+  </g>
+</svg>
