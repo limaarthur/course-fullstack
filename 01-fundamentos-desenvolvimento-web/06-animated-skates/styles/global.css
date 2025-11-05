@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
+
+:root {
+  /* fonts */
+  --font-family-montserrat: 'Montserrat', sans-serif;
+  --font-family-syne: 'Syne', sans-serif;
+  --font-family-inter: 'Inter', sans-serif;
+
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* fonts mobile */
+  --font-size-small: 0.75rem;
+  --font-size-base: 1rem;
+  --font-size-large: 1.5rem;
+  --font-size-x-large: 2rem;
+
+  /* colors */
+  --snitap-sun: #FFCD1E;
+  --snitap-sky-mid: #06B6D4;
+  --snitap-sky-light: #67E8F9;
+  --snitap-joy-mid: #DB2777;
+  --snitap-joy-light: #F472B6;
+  --snitap-leaf-mid: #16A34A;
+
+  --color-text: #000000;
+  --color-highlights: #000000;
+  --color-background: #FAFAFA;
+
+  --pdy-base: 0.75rem;
+  --pdy-lg: 1rem;
+  --pdy-x-lg: 1.5rem;
+
+  --pdx-lg: 1.5rem;
+}
+
+html,
+button {
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+h1,
+h2 {
+  font-family: var(--font-family-syne);
+}
+
+h1 {
+  font-size: var(--font-size-x-large);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-large);
+  line-height: 1.2;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (width >=80em) {
+  :root {
+    /* fonts desktop */
+    --font-size-small: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-large: 2.5rem;
+    --font-size-x-large: 4rem;
+
+    --pdy-base: 0.75rem;
+    --pdy-lg: 2.5rem;
+
+    --pdx-lg: 2rem;
+  }
+}
