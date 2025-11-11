@@ -15,9 +15,9 @@
 
 :root {
   /* fonts */
-  --font-family-montserrat: 'Montserrat', sans-serif;
-  --font-family-syne: 'Syne', sans-serif;
-  --font-family-inter: 'Inter', sans-serif;
+  --font-family-primary: 'Syne', sans-serif;
+  --font-family-secondary: 'Montserrat', sans-serif;
+  --font-family-tertiary: 'Inter', sans-serif;
 
   --font-weight-medium: 500;
   --font-weight-bold: 700;
@@ -48,8 +48,9 @@
 }
 
 html,
-button {
-  font-family: var(--font-family-base);
+button,
+a {
+  font-family: var(--font-family-primary);
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-base);
   line-height: 1.5;
